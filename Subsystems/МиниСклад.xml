@@ -23,6 +23,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ЕдиницыИзмерения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипКонтрагента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОборотыТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОборотыПоТоварам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

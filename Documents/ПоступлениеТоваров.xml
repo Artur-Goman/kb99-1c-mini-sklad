@@ -198,6 +198,7 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОборотыТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
@@ -313,21 +314,21 @@
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="a497c6f4-6b04-4eeb-b6b1-7c65dc6563b7">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ПоступлениеТоваров.ПоступляемыеТовары" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ПоступлениеТоваров.ПоступаемыеТовары" category="TabularSection">
 						<xr:TypeId>083991c0-9d2f-4d18-a9d7-26a22f08fdef</xr:TypeId>
 						<xr:ValueId>b3264ba9-65aa-49d1-9b79-584514b016fe</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ПоступлениеТоваров.ПоступляемыеТовары" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПоступлениеТоваров.ПоступаемыеТовары" category="TabularSectionRow">
 						<xr:TypeId>59aaca89-5b08-4a69-8d26-00e87f60c332</xr:TypeId>
 						<xr:ValueId>e8a90d53-581e-4984-9ccd-3312b51fb6e3</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>ПоступляемыеТовары</Name>
+					<Name>ПоступаемыеТовары</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поступляемые товары</v8:content>
+							<v8:content>Поступаемые товары</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

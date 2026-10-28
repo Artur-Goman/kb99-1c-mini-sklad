@@ -37,7 +37,7 @@
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.ПоступляемыеТовары</DataPath>
+			<DataPath>Объект.ПоступаемыеТовары</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ПоступаемыеТоварыКонтекстноеМеню" id="14"/>
 			<AutoCommandBar name="ПоступаемыеТоварыКоманднаяПанель" id="15"/>
@@ -66,52 +66,60 @@
 				<ContextMenu name="ПоступаемыеТоварыУправлениеПоискомКонтекстноеМеню" id="24"/>
 				<ExtendedTooltip name="ПоступаемыеТоварыУправлениеПоискомРасширеннаяПодсказка" id="25"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ПоступаемыеТоварыПриИзменении</Event>
+			</Events>
 			<ChildItems>
-				<LabelField name="ПродаваемыеТоварыНомерСтроки" id="26">
-					<DataPath>Объект.ПоступляемыеТовары.LineNumber</DataPath>
+				<LabelField name="ПоступаемыеТоварыНомерСтроки" id="26">
+					<DataPath>Объект.ПоступаемыеТовары.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПродаваемыеТоварыНомерСтрокиКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="ПродаваемыеТоварыНомерСтрокиРасширеннаяПодсказка" id="28"/>
+					<ContextMenu name="ПоступаемыеТоварыНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ПоступаемыеТоварыНомерСтрокиРасширеннаяПодсказка" id="28"/>
 				</LabelField>
-				<InputField name="ПродаваемыеТоварыТовар" id="29">
-					<DataPath>Объект.ПоступляемыеТовары.Товар</DataPath>
+				<InputField name="ПоступаемыеТоварыТовар" id="29">
+					<DataPath>Объект.ПоступаемыеТовары.Товар</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПродаваемыеТоварыТоварКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="ПродаваемыеТоварыТоварРасширеннаяПодсказка" id="31"/>
+					<ContextMenu name="ПоступаемыеТоварыТоварКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПоступаемыеТоварыТоварРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="ChoiceProcessing">ПоступаемыеТоварыТоварОбработкаВыбора</Event>
+					</Events>
 				</InputField>
-				<InputField name="ПродаваемыеТоварыКоличество" id="32">
-					<DataPath>Объект.ПоступляемыеТовары.Количество</DataPath>
+				<InputField name="ПоступаемыеТоварыКоличество" id="32">
+					<DataPath>Объект.ПоступаемыеТовары.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПродаваемыеТоварыКоличествоКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ПродаваемыеТоварыКоличествоРасширеннаяПодсказка" id="34"/>
+					<ContextMenu name="ПоступаемыеТоварыКоличествоКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ПоступаемыеТоварыКоличествоРасширеннаяПодсказка" id="34"/>
 					<Events>
 						<Event name="OnChange">ПоступаемыеТоварыКоличествоПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="ПродаваемыеТоварыЕдИзм" id="41">
-					<DataPath>Объект.ПоступляемыеТовары.ЕдИзм</DataPath>
+				<InputField name="ПоступаемыеТоварыЕдИзм" id="41">
+					<DataPath>Объект.ПоступаемыеТовары.ЕдИзм</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПродаваемыеТоварыЕдИзмКонтекстноеМеню" id="42"/>
-					<ExtendedTooltip name="ПродаваемыеТоварыЕдИзмРасширеннаяПодсказка" id="43"/>
+					<ContextMenu name="ПоступаемыеТоварыЕдИзмКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ПоступаемыеТоварыЕдИзмРасширеннаяПодсказка" id="43"/>
 				</InputField>
-				<InputField name="ПродаваемыеТоварыЦена" id="35">
-					<DataPath>Объект.ПоступляемыеТовары.Цена</DataPath>
+				<InputField name="ПоступаемыеТоварыЦена" id="35">
+					<DataPath>Объект.ПоступаемыеТовары.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПродаваемыеТоварыЦенаКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="ПродаваемыеТоварыЦенаРасширеннаяПодсказка" id="37"/>
+					<ContextMenu name="ПоступаемыеТоварыЦенаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПоступаемыеТоварыЦенаРасширеннаяПодсказка" id="37"/>
 					<Events>
 						<Event name="OnChange">ПоступаемыеТоварыЦенаПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="ПродаваемыеТоварыСумма" id="38">
-					<DataPath>Объект.ПоступляемыеТовары.Сумма</DataPath>
+				<InputField name="ПоступаемыеТоварыСумма" id="38">
+					<DataPath>Объект.ПоступаемыеТовары.Сумма</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПродаваемыеТоварыСуммаКонтекстноеМеню" id="39"/>
-					<ExtendedTooltip name="ПродаваемыеТоварыСуммаРасширеннаяПодсказка" id="40"/>
+					<ContextMenu name="ПоступаемыеТоварыСуммаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ПоступаемыеТоварыСуммаРасширеннаяПодсказка" id="40"/>
 					<Events>
 						<Event name="OnChange">ПоступаемыеТоварыСуммаПриИзменении</Event>
 					</Events>
@@ -119,7 +127,7 @@
 			</ChildItems>
 		</Table>
 		<InputField name="СуммаДокумента" id="10">
-			<DataPath>Объект.ПоступляемыеТовары.TotalСумма</DataPath>
+			<DataPath>Объект.СуммаДокумента</DataPath>
 			<ReadOnly>true</ReadOnly>
 			<Title>
 				<v8:item>
