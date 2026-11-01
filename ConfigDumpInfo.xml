@@ -69,9 +69,9 @@
 			<Metadata name="Enum.ТипКонтрагента.EnumValue.ЭтоПокупатель" id="c21e0ce5-287a-4fa5-bc2c-37f71ca33029"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="1d3d31e8-b41f-4dd4-9e1c-6b059f80dbb2" configVersion="7639e72396d11a48902858e9a9664a7f00000000"/>
-		<Metadata name="Report.ОборотыПоТоварам" id="8e31f8e4-e2ce-4817-85ca-24ecf06ceb1c" configVersion="bdc975375dc3674ebe2c3189712eabae00000000"/>
-		<Metadata name="Report.ОборотыПоТоварам.Template.ОсновнаяСхемаКомпоновкиДанных" id="db2f0c60-5997-42f9-91e8-af2ff4714bc9" configVersion="39b5aec91e16684da10ed542f8d7b13a00000000"/>
-		<Metadata name="Report.ОборотыПоТоварам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="db2f0c60-5997-42f9-91e8-af2ff4714bc9.0" configVersion="79565eb50d0fce458b7add1ec1c0bf3200000000"/>
+		<Metadata name="Report.ОборотыТоваров" id="8e31f8e4-e2ce-4817-85ca-24ecf06ceb1c" configVersion="65068cdc85727e4894e0a0d1bf3aa3fc00000000"/>
+		<Metadata name="Report.ОборотыТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="db2f0c60-5997-42f9-91e8-af2ff4714bc9" configVersion="2c4cb9c59b4ade42b3aab4f82093748100000000"/>
+		<Metadata name="Report.ОборотыТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="db2f0c60-5997-42f9-91e8-af2ff4714bc9.0" configVersion="ab8b1f782235544892afecef8a4bfce300000000"/>
 		<Metadata name="Report.ОстаткиТоваров" id="63406646-8776-4e58-8a2d-3616a5d7cc04" configVersion="f96d123854b4cd41a96bef5ed83442f400000000"/>
 		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="c55d0e66-28cf-41c9-a82e-16b4638bf96e" configVersion="e2bbede6248e11448783cf0b02375bfc00000000"/>
 		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="c55d0e66-28cf-41c9-a82e-16b4638bf96e.0" configVersion="f001d0a059201845b4639a89f8a2c44e00000000"/>

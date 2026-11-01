@@ -260,7 +260,7 @@
 			<Enum>ЕдиницыИзмерения</Enum>
 			<Enum>ТипКонтрагента</Enum>
 			<Report>ОстаткиТоваров</Report>
-			<Report>ОборотыПоТоварам</Report>
+			<Report>ОборотыТоваров</Report>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ОборотыТоваров</AccumulationRegister>
 		</ChildObjects>
